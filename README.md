@@ -1,2 +1,2 @@
 # Fikri's LeetCode Solutions
-My solutions for LeetCode problems
+My solutions for LeetCode problems all in Javascript
