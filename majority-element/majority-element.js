@@ -15,7 +15,6 @@ var majorityElement = function(nums) {
       break;
     }
     if (nums[i] === false) {
-    //do nothing and i will increment itself
     } else {
       while (nums[i] === nums[j]) {
         j++;
@@ -27,10 +26,9 @@ var majorityElement = function(nums) {
       nums[j] = false;
     }
   }
-  console.log(nums);
-  for (var i = 0; i < nums.length; i++) {
-    if (nums[i] !== false) {
-      return nums[i];
+  for (var l = 0; l < nums.length; l++) {
+    if (nums[l] !== false) {
+      return nums[l];
     }
   }
 };
